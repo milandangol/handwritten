@@ -30,7 +30,6 @@ predict = model.predict(x_test)
 print(predict[1])
 print(y_test[1])
 plt.imshow(x_test[1])
-!pip install --upgrade pip
 
 from PIL import Image
 import numpy as np
